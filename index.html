@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 数学公式 -->
+<script src="./mathjax.js"></script>
+<!-- 代码高亮 -->
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<link rel="stylesheet" href="custom.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>hello</h1><p>This is a sentence.
+</p>
+<br>
+<p><strong>这是</strong><em>中文</em><del>对吧</del>。
+</p>
+<br>
+<p><a href="这是一个链接" title="">这是一个链接</a>
+</p>
+<br>
+<p><a href="https://baidu.com" title="百度网站">百度</a>
+</p>
+<br>
+<p><figure><img src="https://markdown.com.cn/assets/img/philly-magic-garden.9c0b4415.jpg" title="Magic Gardens" alt="这是图片" class="center"><figcaption class="text-align:center;">这是图片</figcaption></figure>
+</p>
+<br>
+
+<br>
+<p>几乎每个 Markdown 应用程序都支持两个或多个空格进行换行，称为 结尾空格（trailing whitespace) 的方式，但这是有争议的，因为很难在编辑器中直接看到空格，并且很多人在每个句子后面都会有意或无意地添加两个空格。由于这个原因，你可能要使用除结尾空格以外的其它方式来换行。幸运的是，几乎每个 Markdown 应用程序都支持另一种换行方式：HTML 的 <code class="nohighlight">br</code> 标签。
+</p>
+<br>
+<h2>A formula</h2>$$\sin^2\theta+\cos^2\theta=1
+$$<h2>Code</h2><pre><code class="language-python">s = 0
+for i in range(10):
+    s += i**2
+print(s)
+</code></pre><p>以上是python的代码，计算了自然数的平方和：
+</p>$$\sum_{n=0}^{9}n^2
+$$<pre><code class="language-C">#include <stdio.h>
+int main(){
+   printf("Hello, World!");
+   return 0;
+}
+</code></pre><p>以上是C的代码</p>
+</body>
+</html>
